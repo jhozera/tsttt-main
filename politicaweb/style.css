@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+  }
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    background: #b91004;
+  }
+
+
+#barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background: rgb(255, 255, 255);
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 100px;
+}
+
+
+#barra a {
+    display: flex; 
+    justify-content: center;
+}
+
+.img1{
+    width: 7%;
+    
+}
+
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    
+}
+
+.ti-pr{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+
+}
+
+
+.ti-pt{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 40px;
+    margin: 40px;
+}
+
+
+
+.bo-pt::before{
+    content: "●";
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    margin: 25px;
+}
+
+footer{
+    background-color: white;
+    color: black;
+    padding: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.ti-pl{
+    color:black;
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .img1{ 
+      width: 25%;
+    }
+
+    .bo-pt::before{
+        content: "●";
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        padding: 0;
+        margin: 5px;
+    }
+  
+    
+    footer{
+        background-color: white;
+        color: black;
+        padding: 1px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    
+    }
+    
+    .ti-pl{
+        color:black;
+        font-size: 18px;
+    }
+
+    .logo{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        
+    }
+    
+    .ti-pr{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: white;
+    }
+    
+    
+    .ti-pt{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: white;
+    }
+    
+    p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        padding: 20px;
+        margin: 25px;
+    }
+    
+    
+}

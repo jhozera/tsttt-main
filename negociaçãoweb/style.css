@@ -1,0 +1,64 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+#barra-pr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5),
+  -5px -5px 10px rgba(255, 255, 255, 0.3);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+}
+
+nav span{
+  color: #e43003;
+}
+
+.button-sair{
+    background-color: #e43003;
+    position: absolute;
+    width: 80px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    left: 2000px;
+    padding: 5px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.img-button-sair{
+  width: 40%;
+}
+
+#descontos-trc{
+  position: absolute;
+  margin: 0;
+  left: 840px;
+  top: 200px;
+}
+
+.desconto-img {
+  width: 80%;
+  border-radius: 20px;
+  
+}
