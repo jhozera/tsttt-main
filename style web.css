@@ -124,7 +124,7 @@ ul li a:hover {
 
 .banner {
   position: relative;
-  background-image: url('./imagem/aaaaa.png');
+  background-image: url('pagina principal/imagem/aaaaa.png');
   background-position: center 15vh; 
   background-repeat: no-repeat;
   background-size: cover;
