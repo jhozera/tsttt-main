@@ -124,7 +124,7 @@ ul li a:hover {
 
 .banner {
   position: relative;
-  background-image: url('pagina principal/imagem/aaaaa.png');
+  background-image: url('imagemweb//aaaaa.png');
   background-position: center 15vh; 
   background-repeat: no-repeat;
   background-size: cover;
@@ -769,7 +769,7 @@ h6 {
     height: 80vh;
     background-size: 100% 100%;
     background-position: center 18vh;
-    background-image: url('./imagem/aaaaa.png'); 
+    background-image: url('imagemweb//aaaaa.png');
     translate: -775px;
   }
      
@@ -1004,7 +1004,7 @@ h6 {
     height: 80vh;
     background-size: 100% 100%;
     background-position: center 18vh;
-    background-image: url('./imagem/aaaaa.png'); 
+    background-image: url('imagemweb//aaaaa.png');
     translate: -700px;
   }
      
@@ -1240,7 +1240,7 @@ h6 {
     height: 80vh;
     background-size: 100% 100%;
     background-position: center 18vh;
-    background-image: url('./imagem/aaaaa.png'); 
+    background-image: url('imagemweb//aaaaa.png');
     translate: -700px;
   }
      
@@ -1486,7 +1486,7 @@ h6 {
 
 
   .banner {
-    background-image: url('./imagem/aaaaa.png');
+    background-image: url('imagemweb//aaaaa.png');
     margin-left: -50px;
 
   }
@@ -1755,7 +1755,7 @@ h6 {
 
 
   .banner {
-    background-image: url('./imagem/aaaaa.png');
+    background-image: url('imagemweb//aaaaa.png');
     margin-left: -50px;
     margin-top: 150px;
    
