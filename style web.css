@@ -42,7 +42,7 @@ nav.mobile-nav {
 
 nav.desktop-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 20px 40px;
   background-color: transparent;
@@ -140,10 +140,10 @@ ul li a:hover {
   color: rgb(0, 0, 0);
   top: 0;
   background: #ffffff;
-  max-width: 360px;
-  width: 100%;
+  max-width: 450px;
+  width:100%;
   border-radius: 15px;
-  height: 550px;
+  height: 600px;
   padding: 5px;
   text-align: center;
   transform: translateY(-1480px);
@@ -1541,7 +1541,7 @@ h6 {
   
   nav.desktop-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 40px;
     background-color: transparent;
@@ -1782,7 +1782,7 @@ h6 {
   
   #cx {
     position: fixed;
-    top: 100px; 
+    top: 250px; 
     left: 700px; 
     transform: none;
     margin-left: 0; 
@@ -1813,7 +1813,7 @@ h6 {
   
   nav.desktop-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 40px;
     background-color: transparent;
@@ -1991,7 +1991,7 @@ h6 {
 
 
 #carteiras{
-  height: 150vh;
+  height: 70vh;
 }
 
 }
@@ -2006,8 +2006,8 @@ h6 {
 
   #cx {
     position: fixed;
-    top: 260px; 
-    left: 220px; 
+    top: 0px; 
+    left: 0px; 
     transform: none;
     margin-left: 0; 
   }
@@ -2089,7 +2089,7 @@ h6 {
 
   #cx {
     position: fixed;
-    top: 400px; 
+    top: 350px; 
     left: 220px; 
     transform: none;
     margin-left: 0; 
