@@ -135,6 +135,7 @@ ul li a:hover {
 }
 
 
+
 #cx {
   position: relative;
   color: rgb(0, 0, 0);
@@ -352,7 +353,7 @@ h5 {
 
 #carteiras {
   padding: 20px;
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   height: 70vh;
@@ -393,6 +394,22 @@ h5 {
   background: white;
   border-radius: 20px;
   transition: transform 0.3s; 
+}
+
+.div{
+  margin-top: 40px;
+}
+
+.tenda{
+  margin-top: 50px;
+}
+
+.credi{
+  margin-top: 50px;
+}
+
+.ativos{
+  margin-top: 40px;
 }
 
 .container-car img {
@@ -661,19 +678,19 @@ h6 {
   background-color: white;
   padding: 20px;
   width: 90%;
-  height: 400px;
+  height: 300px;
   max-width: 400px;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   margin: 20px auto; 
-  border: solid 2px #e43003;
+  /* border: solid 2px #e43003; */
 }
 
 .close-btnn {
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: red;
+  background: linear-gradient(to top, #d60707 10%, #d10606 50%, #860808 90%);
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 50%;
@@ -725,7 +742,7 @@ h6 {
 .botao {
   width: 100%;
   padding: 10px;
-  background-color: #e43003;
+  background: linear-gradient(to top, #d60707 10%, #d10606 50%, #860808 90%);
   color: white;
   border: none;
   border-radius: 20px;
@@ -737,7 +754,6 @@ h6 {
 .botao:hover {
   background-color: #a8470e;
 }
-
 
 
 @media screen and (max-width: 500px) {
