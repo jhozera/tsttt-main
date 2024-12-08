@@ -1,13 +1,13 @@
 // barra mobile
 
-document.addEventListener('DOMContentLoaded', function() {
-  const menuToggle = document.getElementById('menu-toggle');
-  const barra = document.getElementById('barra');
+const menuToggle = document.getElementById('menu-toggle');
+const menuBar = document.getElementById('barra');
 
-  menuToggle.addEventListener('click', function() {
-      barra.classList.toggle('show-menu');
-  });
+menuToggle.addEventListener('click', () => {
+    menuBar.classList.toggle('menu-active');
 });
+
+
 
 
 
@@ -86,20 +86,20 @@ contButton.addEventListener('click', () => {
 
 
 
-// mobile
-const conteButton = document.getElementById('aceconsta')
+// // mobile
+// const conteButton = document.getElementById('aceconsta')
 
-conteButton.addEventListener('click', () => {
-  document.body.classList.toggle('contrast');
+// conteButton.addEventListener('click', () => {
+//   document.body.classList.toggle('contrast');
 
 
-  if(document.body.classList.contains('contrast')){
-    contrastIcon.src = '<img src="/imagem/Acessibilidade-gRANDE-300x300.png/>'
-  } else {
-    contrastIcon.src = '<img src="/imagem/Acessibilidade-gRANDE-300x300.png/>'
-  }
+//   if(document.body.classList.contains('contrast')){
+//     contrastIcon.src = '<img src="/imagem/Acessibilidade-gRANDE-300x300.png/>'
+//   } else {
+//     contrastIcon.src = '<img src="/imagem/Acessibilidade-gRANDE-300x300.png/>'
+//   }
 
-})
+// })
 
 
 

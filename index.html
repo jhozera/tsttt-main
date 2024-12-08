@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRC NEGOCIE</title>
     <link rel="stylesheet" href="style web.css">
     <!-- <link rel="stylesheet" href="styleace.css"> -->
-    <link
+    <!-- <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
     <script src="./interface.js" defer></script>
-    <script src="./api.js" defer ></script>
 </head>
 <body class="animate__animated animate__bounceInLeft">
     <header>
-    <div class="banner">
-        <div class="banner-content">
             <div class="logo1">TRC <span style="color: #b91004;">TABORDA</span></div>
             <nav id="barra" class="menu-toggle">
                 <div id="menu-toggle">☰</div>
-                <a class="bt1" href="#trc"><strong> TRC</strong></a>
-                <a class="bt2" onclick="scrollToSection('par-btn')" href="#parceiros" ><strong>Parceiros</strong></a>
-                <a class="bt3" onclick="scrollToSection('contato-btn')"href="#contato"><strong>Contato</strong></a>
-                <a class="bt3" onclick="scrollToSection('contato-btn')" href="#boleto"><strong>Boleto</strong></a>
-                <a class="bt3" href="#atualizacao" onclick="openModal(event)"><strong>Atualização</strong></a>
-                <!-- <a id="aceconsta" class="bt3"><strong>Acessibilidade</strong></a> -->
-            </nav>            
+                <div id="menu-items">
+                    <div class="button-container">
+                        <a class="bt1" href="#trc"><strong> TRC</strong></a>
+                        <a class="bt2" onclick="scrollToSection('par-btn')" href="#parceiros" ><strong>Parceiros</strong></a>
+                        <a class="bt3" onclick="scrollToSection('contato-btn')"href="#contato"><strong>Contato</strong></a>
+                        <a class="bt3" onclick="scrollToSection('contato-btn')" href="#boleto"><strong>Boleto</strong></a>
+                    </div>
+                </div>
+            </nav>     
             <nav id="desktop" class="desktop-nav">
                 <div class="logo">TRC <span style="color: #b91004;">TABORDA</span></div>
                 <ul class="dek">
@@ -33,22 +32,16 @@
                     <li><a href="#parceiros"  onclick="scrollToSection('par-btn')" style="font-size: 20px;">Parceiros</a></li>
                     <li><a href="#contato" onclick="scrollToSection('contato-btn')"style="font-size: 20px;">Contato</a></li>
                     <li><a href="#atualizacao" onclick="openModal(event)" style="font-size: 20px;">Atualização</a></li>
-                    <!-- <button id="aceconst" class="acessibilidade"><img src="/imagem/Acessibilidade-gRANDE-300x300.png" style="width: 50%;"></button> -->
                 </ul>
             </nav>
-            <div class="titulo">
-                <h1 class="ti">
-                    <span> TRC Taborda</span><br>
-                    tem as melhores<br>
-                    condições para você
-                </h1>
-            </div>
-        </div>
-    </div>   
     </header>
+    <div class="imagem-inicial">
+        <img src="./imagemweb/Site de proposta de vendas (1).png"  style="width: 100%; height: auto; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;">
+    </div>
+    <div class="imagem-mobile">
+        <img src="./imagemweb/tem as melhores condições.png" style="width: 100%; height: auto; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;">
+    </div>
     <main>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e43003" fill-opacity="1" d="M0,192L48,170.7C96,149,192,107,288,112C384,117,480,171,576,202.7C672,235,768,245,864,224C960,203,1056,149,1152,128C1248,107,1344,117,1392,122.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e43003" fill-opacity="1" d="M0,192L48,170.7C96,149,192,107,288,112C384,117,480,171,576,202.7C672,235,768,245,864,224C960,203,1056,149,1152,128C1248,107,1344,117,1392,122.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>    
     <div id="caixa">
     <form id="cx">
         <h1 style="font-size: 22px; font-family: Arial, Helvetica, sans-serif;">Consulte suas dívidas de forma gratuita e negocie as melhores condições para você.</h1>
