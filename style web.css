@@ -1372,8 +1372,10 @@ h6 {
     width: 90%;
     margin: 0 auto;
     margin-top: 300px;
+    left: 10%;
     transform: none;
     box-shadow: 2px 2px 4px #9e9d9d, -2px -2px 4px #9e9d9d;
+    
   }
 
   #pt2 {
@@ -1573,7 +1575,7 @@ h6 {
 }
 
 #carteiras{
-  height: 145vh;
+  height: 155vh;
 }
 
 
@@ -1604,18 +1606,13 @@ h6 {
     display: flex;
 }
 
-#barra {
-    display: none; 
-}
-
 
   
   #cx {
     position: absolute;
-    left: 30%; 
     top: 700px;
     transform: none;
-    margin-left: 0; 
+    left: 200px; 
   }
 
   #pt2 {
@@ -1780,6 +1777,7 @@ h6 {
 
 
 #caixa-pr{
+  height: 60vh;
   justify-content: flex-start;
 }
 
@@ -1822,7 +1820,7 @@ h6 {
 
 
 #carteiras{
-  height: 70vh;
+  height: 100vh;
 }
 
 }
@@ -1888,7 +1886,7 @@ h6 {
 
 
 #carteiras{
-  height: 70vh;
+  height: 100vh;
 }
 
 
@@ -1928,7 +1926,7 @@ h6 {
   #cx {
     position: absolute;
     top: 350px; 
-    left: 220px; 
+    left: 500px; 
     transform: none;
     margin-left: 0; 
   }
@@ -1972,7 +1970,7 @@ h6 {
 
 
 #carteiras{
-  height: 70vh;
+  height: 100vh;
 }
 
 
@@ -1991,7 +1989,7 @@ h6 {
   border-top-right-radius: 30px;
   margin-top: 200px;
   background: linear-gradient(to top, #500606 10%, #7e0404 50%, #7e0404 90%);
-  height: 60vh;
+  height: 70vh;
   justify-content: center;
 }
 
